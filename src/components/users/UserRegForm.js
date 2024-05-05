@@ -204,7 +204,7 @@ const RegForm = () => {
               {/* File Upload */}
               <Grid item xs={12} md={6}>
                 <InputLabel htmlFor="file-upload" sx={{ textAlign: "left" }}>
-                  Select your Profile
+                  Select your Profile (Max 1 MB)
                 </InputLabel>
                 <Input
                   accept="image/*"
